@@ -1,1 +1,160 @@
+body{
+background-color: #f6dfad;
+}
 
+header {
+  margin: 0;
+  padding: 0;
+}
+.container { 
+margin: 0;
+padding: 0;
+width: 100vw;
+background-color: #a51b2a;
+position: absolute;
+display: flex;
+align-items: center;
+justify-content: space-around;
+max-width: 100%;
+height: auto;
+}
+h1{
+  font-family: Franklin Gothic Medium, serif;
+  color: #fefae0;
+  font-size: 35px;
+  word-spacing: 7px;
+}
+ul, li {
+  font-size: 15px;
+  display: flex;
+  padding: 1px;
+  margin: 5px;
+}
+a{
+color: #0e0e0c;
+}
+button{
+  cursor: pointer;
+  margin: 3px;
+  padding: 20px;
+background-color:#f3c53e;
+  border-radius: 5px;
+  word-spacing: 7px;
+  font-weight: bold;
+}
+/*imgtxt*/
+img{
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 102%;
+}
+/*underpic message*/
+main{
+ font-family: Verdana, sans-serif;
+ color: #283618;
+}
+h2{
+  font-family: Franklin Gothic Medium, serif;
+  text-align: center;
+  color: #940114;
+  font-size: 34px;
+}
+/*Mission*/
+.box div {
+width: auto;
+display: inline-block;
+padding: 40px;
+margin: 5px;
+text-align: center;
+ }
+h3{
+  font-size: 40px;
+}
+.Mission {
+background-color: #a51b2a;
+font-size: 18px;
+word-spacing: 4px;
+border: 6px solid #fdb70a;
+color: #f7c387;
+
+}
+.BelowMiss div {
+width: 349px;
+display: inline-block;
+padding: 20px;
+ margin: 10px;
+text-align: center;
+}
+h3{
+  font-size: 30px;
+}
+.Help {
+background-color: #fdb70a;
+font-size: 20px;
+word-spacing: 4px;
+border: 6px solid #b20303;
+      }
+.history {
+background-color: #40a070
+  ;
+font-size: 18px;
+word-spacing: 4px;
+border: 6px solid #002a1d;
+      }
+/*Photos*/
+h2{
+  font-size: 40px;
+}
+.Photos {
+  margin: 5px 0 20px;
+  width: 70%;
+  height: 450px;
+  display: flex;
+  justify-comtainer: center;
+  gap: 10px;
+}
+.Photos img{
+  width: 170px;
+  height: 420px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 4px solid #253d25;
+  transition: all ease-in-out 0.5s;
+}
+.Photos img:hover {
+  width: 50%;
+}
+/*footer*/
+footer {
+  margin: 0;
+  padding: 0;
+}
+#btmnav{
+background-color: #a51b2a;
+position: relative;
+display: flex;
+align-items: center;
+justify-content: space-around;
+max-width: auto;
+height: auto;
+bottom: 0;
+}
+h5{
+text: left;
+align: flex-start;
+justify: flex-start;
+color: #fefae0;
+font-size: 19px;
+font-family: Franklin Gothic Medium, serif;
+word-spacing: 4px;
+
+}
+ol{
+  margin: 0.5px;
+  padding: 36px;
+  color: #fefae0;
+  border-radius: 20 px;
+  word-spacing: 2px;
+  margin-bottom: 0px;
+}
